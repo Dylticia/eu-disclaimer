@@ -44,11 +44,8 @@ if (!empty($_POST['message_disclaimer']) && !empty($_POST['url_redirection'])) {
         <p>Par exemple: La législation nous impose de vous informer de la nocivité
             des produits à base de nicotine, vous devez avoir plus de 18 ans pour
             consulter ce site ! </p>
-        <p><b>Utilisation du plugin : </b>Pour plus de facilité, nous avons automatisé le plugin...<br>
-            Mais si vous souhaitez le maitriser, vous pouvez indiquer <br>
-            ce code php sous la balise body html de la page home principale de votre thème WP :
-            echo do_shortcode('[eu-disclaimer]');<br>
-            En décommentant également la fonction associée dans eu-disclaimer.php
+        <p><b>Utilisation du plugin : </b>Pour plus de facilité, nous avons automatisé le plugin,<br> pour plus d'information voir le read-me...<br>
+   
         </p>
         <br>
         <h3>Centre AFPA / session DWWM</h3>

@@ -5,7 +5,7 @@
  * Plugin URI: http://url_de_l_extension
  * Description: Plugin sur la législation des produits à base de nicotine.
  * Version: 1.5
- * Author: Ryad AFPA
+ * Author: Stéphanie Fontés
  * Author URI: http://www.afpa.fr
  * Licence: (Lien de la license)
  * 
@@ -23,7 +23,7 @@
 // «functions.php» de WordPress ainsi ce fichier communique directement avec WP
 // comme si ce code était présent dans le fichier «functions.php» sans pour autant le modifier directement. 
 
-//Utilisation de la table DisclaimerGestionTable.php
+//Utilisation du fichier cisclaimerGestionTable.php qui gère la table 
 require_once('Model/Repository/DisclaimerGestionTable.php');
 
 // création de la fonction ajouter au menu, explication des options en variable:
