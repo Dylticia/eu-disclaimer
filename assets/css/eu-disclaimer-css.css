@@ -1,0 +1,31 @@
+/* Stylisation de la boite modal et de ses boutons */
+
+#monModal {
+  height: 200px;
+  width: 400px;
+  background-color: rgb(204, 214, 217);
+}
+
+a.btn-red {
+  color: #fff;
+  background: #d81e1e;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  border-radius: 4px;
+  transition-duration: 0.25s;
+  border: none;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+a.btn-green {
+  color: #fff;
+  background: #546a31;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  border-radius: 4px;
+  transition-duration: 0.25s;
+  border: none;
+  font-size: 22px;
+  font-weight: bold;
+}
